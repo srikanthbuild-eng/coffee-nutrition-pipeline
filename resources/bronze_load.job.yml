@@ -1,0 +1,12 @@
+# Loads every seed CSV in the landing volume into its bronze Delta table.
+# Uses COPY INTO, so files that were already loaded are skipped on re-runs.
+resources:
+  jobs:
+    bronze_load_job:
+      name: drink_nutrition_bronze_load
+      tasks:
+        - task_key: load_seed_files
+          notebook_task:
+            notebook_path: ../src/bronze/01_load_seed_files.py
+            base_parameters:
+              catalog: ${var.catalog}

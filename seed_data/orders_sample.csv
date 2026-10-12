@@ -1,0 +1,6 @@
+order_id,ordered_at,drink_id,size_id
+ord_0001,2026-10-06T08:12:00-04:00,caramel_macchiato,grande
+ord_0002,2026-10-06T14:40:00-04:00,iced_brown_sugar_oatmilk_shaken_espresso,venti_iced
+ord_0003,2026-10-07T09:05:00-04:00,pumpkin_spice_latte,tall
+ord_0004,2026-10-08T15:20:00-04:00,cold_brew,grande
+ord_0005,2026-10-09T08:30:00-04:00,caffe_latte,grande

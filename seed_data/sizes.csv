@@ -1,0 +1,11 @@
+size_id,size_name,volume_fl_oz,size_family
+short,Short,8,cup
+tall,Tall,12,cup
+grande,Grande,16,cup
+venti_hot,Venti (hot),20,cup
+venti_iced,Venti (iced),24,cup
+trenta,Trenta,30,cup
+solo,Solo,1,espresso
+doppio,Doppio,2,espresso
+triple,Triple,3,espresso
+quad,Quad,4,espresso

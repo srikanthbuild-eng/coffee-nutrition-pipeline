@@ -1,0 +1,10 @@
+order_id,seq,modifier_type,ingredient_id,quantity,replaces_ingredient_id
+ord_0001,1,swap_milk,milk_oat,,milk_2pct
+ord_0001,2,set_quantity,syrup_vanilla,2,
+ord_0002,1,set_quantity,syrup_brown_sugar,3,
+ord_0003,1,remove_ingredient,whipped_cream,0,
+ord_0003,2,set_quantity,sauce_pumpkin_spice,2,
+ord_0004,1,add_cold_foam,vanilla_sweet_cream,,
+ord_0004,2,add_ingredient,syrup_caramel,2,
+ord_0005,1,swap_espresso,espresso_blonde,,espresso_signature
+ord_0005,2,add_ingredient,syrup_sf_vanilla,2,

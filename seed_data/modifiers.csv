@@ -1,0 +1,9 @@
+modifier_type,description,applies_to,example
+swap_milk,Replace the drink's milk with another milk; quantity unchanged,milk,Oatmilk instead of 2%
+set_quantity,Set pumps/shots/scoops of an ingredient already in the recipe (0 removes it),any,2 pumps vanilla instead of 4
+add_ingredient,Add an ingredient not in the default recipe,any,Add 1 pump hazelnut
+remove_ingredient,Remove an ingredient entirely,any,No whipped cream
+swap_espresso,Replace espresso type; shot count unchanged,espresso,Blonde instead of Signature
+add_cold_foam,Add vanilla sweet cream cold foam at the size's foam quantity (1.5/2/2.5/3 fl oz),cream,Add cold foam to cold brew
+scale_quantity,Light (x0.5) or extra (x1.5) of an ingredient,any,Light caramel drizzle
+ice_level,Light / extra / no ice; not modeled in phase 1 (changes liquid volume),none,Light ice

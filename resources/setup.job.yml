@@ -1,0 +1,13 @@
+# One-time (and safe to re-run) setup: creates the bronze/silver/gold schemas
+# and the landing volume that raw files are uploaded into.
+resources:
+  jobs:
+    setup_job:
+      name: drink_nutrition_setup
+      tasks:
+        - task_key: create_schemas_and_volume
+          # No cluster block: on Free Edition, notebook tasks run on serverless compute.
+          notebook_task:
+            notebook_path: ../src/setup/00_create_schemas.py
+            base_parameters:
+              catalog: ${var.catalog}

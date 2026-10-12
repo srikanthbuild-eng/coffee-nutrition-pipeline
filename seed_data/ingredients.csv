@@ -1,0 +1,65 @@
+ingredient_id,ingredient_name,category,unit,calories,total_fat_g,saturated_fat_g,carbs_g,sugar_g,protein_g,caffeine_mg,confidence,note
+espresso_signature,Signature Espresso,espresso,shot,5,0,0,1,0,0,75,high,
+espresso_blonde,Blonde Espresso,espresso,shot,5,0,0,1,0,0,85,high,
+espresso_decaf,Decaf Espresso,espresso,shot,5,0,0,1,0,0,10,low,decaf caffeine varies
+espresso_ristretto,Signature Espresso (ristretto pull),espresso,shot,5,0,0,1,0,0,75,medium,used in flat white
+brewed_pike_place,Pike Place Roast,coffee_base,fl_oz,0.3,0,0,0,0,0.05,19.4,high,grande ~310 mg
+brewed_blonde,Blonde Roast,coffee_base,fl_oz,0.3,0,0,0,0,0.05,22.5,high,grande ~360 mg
+brewed_dark,Dark Roast,coffee_base,fl_oz,0.3,0,0,0,0,0.05,16.25,high,grande ~260 mg
+brewed_decaf,Decaf Pike Place Roast,coffee_base,fl_oz,0.3,0,0,0,0,0.05,1.6,medium,
+iced_coffee_base,Iced Coffee,coffee_base,fl_oz,0.4,0,0,0,0,0,13.75,medium,grande ~165 mg
+cold_brew_base,Cold Brew,coffee_base,fl_oz,0.4,0,0,0,0,0,17.1,medium,grande ~205 mg
+nitro_cold_brew_base,Nitro Cold Brew,coffee_base,fl_oz,0.3,0,0,0,0,0,16.6,medium,grande ~265 mg
+hot_water,Hot Water,water,fl_oz,0,0,0,0,0,0,0,high,
+cold_water,Water,water,fl_oz,0,0,0,0,0,0,0,high,
+milk_whole,Whole Milk,milk,fl_oz,18.6,1.0,0.57,1.5,1.5,0.96,0,high,
+milk_2pct,2% Milk,milk,fl_oz,15.3,0.6,0.38,1.5,1.5,1.0,0,high,default milk for most espresso drinks
+milk_nonfat,Nonfat Milk,milk,fl_oz,10.4,0.03,0.02,1.5,1.5,1.0,0,high,
+milk_breve,Half & Half (Breve),milk,fl_oz,39,3.5,2.2,1.3,1.3,0.9,0,medium,
+heavy_cream,Heavy Cream,milk,fl_oz,100,11,7,0.8,0.8,0.85,0,medium,
+milk_oat,Oatmilk,milk,fl_oz,17.5,0.88,0.1,2.0,0.88,0.38,0,medium,
+milk_almond,Almondmilk,milk,fl_oz,7.5,0.31,0,1.0,0.5,0.13,0,medium,
+milk_coconut,Coconutmilk,milk,fl_oz,10,0.63,0.56,1.0,0.88,0.06,0,medium,
+milk_soy,Soymilk,milk,fl_oz,16.3,0.5,0.06,1.9,1.6,0.88,0,medium,vanilla soy
+vanilla_sweet_cream,Vanilla Sweet Cream,cream,fl_oz,65,5,3.5,4,4,1,0,low,also the base of cold foam
+syrup_classic,Classic Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_vanilla,Vanilla Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_caramel,Caramel Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_hazelnut,Hazelnut Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_toffee_nut,Toffee Nut Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_cinnamon_dolce,Cinnamon Dolce Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_raspberry,Raspberry Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_peppermint,Peppermint Syrup,syrup,pump,20,0,0,5,5,0,0,medium,
+syrup_brown_sugar,Brown Sugar Syrup,syrup,pump,20,0,0,5,5,0,0,low,label suggests fewer kcal per pump
+syrup_sf_vanilla,Sugar-Free Vanilla Syrup,syrup,pump,0,0,0,0.5,0,0,0,medium,
+sauce_mocha,Mocha Sauce,sauce,pump,25,0.75,0.5,6,5,1,6,medium,
+sauce_white_mocha,White Chocolate Mocha Sauce,sauce,pump,45,1.0,0.7,8.5,8.5,0.5,0,low,
+sauce_pumpkin_spice,Pumpkin Spice Sauce,sauce,pump,33,0.2,0.1,7.5,7,0.2,0,low,seasonal
+sauce_dark_caramel,Dark Caramel Sauce,sauce,pump,30,1,0.6,5,5,0,0,low,
+whipped_cream,Whipped Cream,topping,serving,90,9,6,3,3,0.5,0,medium,1 serving = grande portion
+caramel_drizzle,Caramel Drizzle,topping,serving,15,0.5,0.3,2,2,0,0,medium,
+mocha_drizzle,Mocha Drizzle,topping,serving,10,0.3,0.2,2,1.5,0,0,low,
+cinnamon_dolce_topping,Cinnamon Dolce Topping,topping,serving,5,0,0,1,1,0,0,low,
+pumpkin_spice_topping,Pumpkin Spice Topping,topping,serving,0,0,0,0,0,0,0,medium,
+cinnamon_powder,Cinnamon Powder,topping,serving,0,0,0,0,0,0,0,high,
+cookie_crumble_topping,Chocolate Cookie Grind,topping,serving,30,1.5,0.5,4,2,0,0,low,
+caramel_crunch_topping,Caramel Crunch Topping,topping,serving,30,1,0.5,5,4,0,0,low,
+frap_chips,Frappuccino Chips,inclusion,scoop,30,1.5,1,4,3,0.5,2,low,
+frap_coffee_base,Coffee Frappuccino Syrup,frap_base,pump,35,0,0,9,9,0,0,medium,
+frap_creme_base,Creme Frappuccino Syrup,frap_base,pump,35,0,0,9,9,0,0,medium,
+frap_roast,Frappuccino Roast,coffee_base,pump,5,0,0,1,0,0,32,medium,grande coffee frap ~95 mg
+vanilla_bean_powder,Vanilla Bean Powder,inclusion,scoop,20,0,0,5,5,0,0,low,
+strawberry_puree,Strawberry Puree,inclusion,pump,25,0,0,6,5,0,0,low,
+chai_concentrate,Chai Concentrate,tea,pump,27,0,0,7,7,0,24,medium,
+matcha_powder,Matcha Powder (unsweetened),tea,scoop,5,0,0,1,0,0.3,20,low,recipe reportedly moved to unsweetened matcha + classic in 2025; verify
+tea_bag_black,Black Tea Bag (Royal English Breakfast / Earl Grey),tea,bag,0,0,0,0,0,0,40,medium,
+tea_bag_green,Green Tea Bag (Emperor's Clouds & Mist / Jade Citrus Mint),tea,bag,0,0,0,0,0,0,16,low,
+tea_bag_herbal,Herbal Tea Bag (Mint Majesty / Peach Tranquility),tea,bag,0,0,0,0,0,0,0,high,
+iced_black_tea_base,Iced Black Tea,tea,fl_oz,0,0,0,0,0,0,3.1,medium,grande ~25 mg
+iced_green_tea_base,Iced Green Tea,tea,fl_oz,0,0,0,0,0,0,3.1,medium,grande ~25 mg
+iced_passion_tango_base,Iced Passion Tango Tea,tea,fl_oz,0,0,0,0,0,0,0,high,
+lemonade,Lemonade,juice,fl_oz,12,0,0,3,3,0,0,medium,
+refresher_strawberry_acai,Strawberry Acai Refresher Base,refresher_base,fl_oz,15,0,0,3.5,3.2,0,7.5,medium,grande ~45 mg
+refresher_mango_dragonfruit,Mango Dragonfruit Refresher Base,refresher_base,fl_oz,15,0,0,3.5,3.2,0,7.5,medium,grande ~45 mg
+strawberry_inclusion,Freeze-Dried Strawberries,inclusion,scoop,5,0,0,1,1,0,0,medium,
+dragonfruit_inclusion,Freeze-Dried Dragonfruit,inclusion,scoop,5,0,0,1,1,0,0,medium,

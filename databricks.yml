@@ -1,0 +1,28 @@
+# Databricks Asset Bundle: the single source of truth for everything this
+# project deploys (jobs now; the pipeline and the app in later weeks).
+#
+#   databricks bundle validate   -> checks this file and everything it includes
+#   databricks bundle deploy     -> uploads code and creates/updates the jobs
+#   databricks bundle run <job>  -> runs a job and streams its status
+
+bundle:
+  name: drink_nutrition_pipeline
+
+# Each job lives in its own file under resources/ so changes stay small and reviewable.
+include:
+  - resources/*.yml
+
+variables:
+  catalog:
+    description: Unity Catalog catalog that holds the bronze, silver and gold schemas.
+    default: workspace   # Free Edition's built-in catalog
+
+targets:
+  dev:
+    # Development mode prefixes job names with "[dev <your name>]" and pauses any
+    # schedules, so experiments never look like production.
+    mode: development
+    default: true
+    workspace:
+      # TODO: replace with your workspace URL (the one you used for `databricks auth login`).
+      host: https://dbc-4f0d1d99-52e1.cloud.databricks.com

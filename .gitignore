@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databricks bundle working files (created by `databricks bundle deploy`)
+.databricks/
+
+# Mac and editor files
+.DS_Store
+.vscode/
+
+# Downloads
+*.zip
